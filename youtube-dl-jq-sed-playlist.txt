@@ -1,1 +1,0 @@
-youtube-dl -j --flat-playlist "https://www.youtube.com/playlist?list=PLHkV0lZOca9Az7xL4CBOD17wMAzPYgOvm" | jq-win64.exe -r ".id" | sed.exe "s/^/https\:\/\/www\.youtube\.com\//" > full_playlist.log
